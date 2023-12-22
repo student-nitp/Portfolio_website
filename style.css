@@ -1,0 +1,188 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+    text-decoration: none;
+    border:border-box;
+    font-family: Arial;
+}
+html{
+    font-size: 100%;
+}
+.navbar{
+    position:relative;
+    width:100%;
+    height: 100%;
+    /* color:azure;
+    background-color: aqua; */
+    background: white;
+}
+nav{
+    display:flex;
+    width: 80%;
+    /* color: antiquewhite; */
+    margin:auto;
+    padding: 1.25rem 0;
+    justify-content: space-between;
+    align-items: center;
+    /* display: inline-block; */
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin :.625rem 1.25rem;
+    flex-direction: row-reverse;
+  
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:red;
+
+}
+.intro{
+    margin-left: 12%;
+    margin-top: 15%;
+}
+.intro h1{
+    font-size: 3.4375rem;
+    color:black;
+    margin-bottom: 1.25rem;
+}
+span{
+    color: orangered;
+}
+.intro p{
+    color:rgb(28, 28, 28);
+    line-height: 20px;
+}
+button{
+    background-color: rgb(1, 0, 1);
+    color:rgb(255, 255, 255);
+    /* height:2rem;
+    width:10rem; */
+    border-radius: .375px;
+    display: inline-block;
+    padding: 0.625rem 1.125rem;
+    margin:1.875rem 0;
+}
+/* .image{
+    display: grid;
+    place-items:left;
+} */
+ .image{
+    width:18.75rem;
+    height:18.75rem;
+    background-image: url("portpic.jpeg");
+    border-radius: 50%;
+    margin-right: 20%;
+    margin-bottom: 0; 
+    background-size: cover;
+   
+    float:right;
+    border-width: .3125rem ;
+    border-color: black;
+ }
+
+footer{
+    background-color: rgb(1, 0, 1);
+    color:white;
+    text-align: center;
+    padding:1em;
+
+}
+/* .contact{
+width: 100%;
+height: 100px; */
+
+.Contact-me{
+    max-width: 37.5rem;
+    margin:auto;
+   
+}
+.Contact-me p{
+    margin: .3125rem
+     0;
+}
+.Contact-me a{
+    text-decoration: solid;
+    color: rgb(29, 182, 182);
+}
+#conus{
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#conus:hover{
+    color: red;
+}
+.es{
+    height:2.5rem;
+}
+section{
+    
+    text-shadow: 0ch;
+    width:100%;
+    background-color: aquamarine;
+    /* flex-grow: ;*/
+} 
+/* .mam{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+} */
+.contact{
+    
+    /* width: 100%; */
+    left: 70%;
+    justify-items: center;
+    text-align: center; 
+
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+   
+    
+ 
+    
+    /* margin-bottom: 0%; */
+    /* font-size: 6px; */
+}
+.abc{
+    font-size: larger;
+    text-align: center;
+   
+    padding:0.625rem;
+    margin:auto;
+
+}
+#send{
+    background-color: mediumblue;
+    color: rgb(255, 255, 255);
+    border-radius:5px ;
+    width:4.6875rem;
+    height: 1.25rem;
+}
+.add-phone{
+    display: flex;
+    -ms-flex-item-align: auto;
+    justify-content: center;
+    align-self: center;
+}
+@media(max-width:998px)
+{
+    html{
+        font-size:65%;
+    }
+}
+@media(max-width:768px)
+{
+    html{
+        font-size:50%;
+    }
+}
